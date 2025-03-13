@@ -1,0 +1,1 @@
+for file in *.txt; do awk 'BEGIN {seq_num=1} /^>/ {print $0 "_" seq_num++; next} {print}' "$file" > temp && mv temp "$file"; done
