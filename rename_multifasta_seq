@@ -1,0 +1,1 @@
+for file in *.txt; do species=$(echo "$file" | cut -d'_' -f1,2); sed -i "s/^>[^ ]*/>${species}/" "$file"; done
