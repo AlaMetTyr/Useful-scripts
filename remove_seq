@@ -1,0 +1,1 @@
+for file in *.txt; do awk 'NR%2==1{header=$0} NR%2==0 && $0 != "No amplicon found" {print header; print $0} NR%2==0 && $0 == "No amplicon found" {header=""}' "$file" > temp && mv temp "$file"; done
