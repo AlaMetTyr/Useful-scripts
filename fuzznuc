@@ -1,0 +1,5 @@
+##fuzznuc for forward primer
+fuzznuc -sequence {name}.fasta -pattern [find forward primer motif] -pmismatch 4 -outfile {name}fuzz
+
+##fuzznuc for reverse primer
+fuzznuc -sequence {name}.fasta -pattern [find reverse primer motif] -pmismatch 4 -outfile {name}fuzz-rev
