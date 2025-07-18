@@ -17,7 +17,7 @@
 ## 2. Zip file corrupt?
 `corrupt_check.sh` will check if a zipped file is corrupt (used this when trying to acquire data from overseas collaborators).   
 ## 3. BLAST  
-Spwaks for itself. `blast.sl` is a slurm script to blastp a reference fasta you provide   
+Speaks for itself. `blast.sl` is a slurm script to blastp a reference fasta you provide   
 ## 3. P450s  
 I wanted to find annotated P450s in sequences, so used `p450_grep.sh` and  `P450_blast.sh` to find them (though now I dont remember why).  
 ## 4. Cafe5  
