@@ -1,0 +1,1 @@
+awk '/^>/{print ">{Species_name}|COI-alt" ++count; next} 1' input.fasta > renamed_output.fasta
