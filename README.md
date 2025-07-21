@@ -6,7 +6,9 @@
 `check_mismtach.py` looked at any mismatches on the primers and removed sequences that had mismatches within the first 5bp of the 3' end of each primer.  
 ## 4. Remove sequence qwith no amplicon  
 `remove_seq` is an awk one liner to remove any of the sequences that are in the resulting .txt file that say 'No amplicon found'
-## 4. Random scripts  	
+## 4. Random scripts  
+`rename_bulk_barcodes` is an awk oneliner to change the naming conformity of any barcodes compiled together in one fasta alignment file.  
+## 5. Random scripts  	
 `fuzznuc` was also used for forward and reverse primers to find the sequences and mismatches individually (used before python script was written).  
 
 
